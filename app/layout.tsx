@@ -1,6 +1,7 @@
 import { type JSX } from 'react';
 import type { Metadata } from 'next';
 import { geistMono, geistSans } from '@/app/fonts';
+import { Providers } from '@/components/providers';
 import '@/app/globals.css';
 
 export const metadata: Metadata = {
@@ -15,7 +16,9 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html className={`${geistSans.variable} ${geistMono.variable}`} lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
