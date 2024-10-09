@@ -1,6 +1,7 @@
+import { type JSX } from 'react';
 import type { Metadata } from 'next';
-import './globals.css';
 import { geistMono, geistSans } from '@/app/fonts';
+import '@/app/globals.css';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -11,7 +12,7 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>): JSX.Element {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
