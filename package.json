@@ -6,6 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
+    "package:install": "pnpm install",
+    "package:reinstall": "rm -rf node_modules .next pnpm-lock.yaml && pnpm install",
+    "package:update": "pnpm update --interactive --recursive",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start"
