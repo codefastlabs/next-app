@@ -49,6 +49,8 @@
     ]
   },
   "dependencies": {
+    "@codefast/hooks": "^0.1.33",
+    "@codefast/ui": "^0.1.33",
     "next": "^14.2.15",
     "react": "^18",
     "react-dom": "^18"
