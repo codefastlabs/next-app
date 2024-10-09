@@ -1,0 +1,18 @@
+services:
+  next_app_production:
+    build:
+      context: ../../
+      dockerfile: Dockerfile
+      args:
+        - ENV_FILE=.env.production.local
+    image: next_app_production
+    container_name: next_app_production
+    env_file:
+      - ../../.env.production.local
+    ports:
+      - '3000:3000'
+    networks:
+      - next_app
+
+networks:
+  next_app:

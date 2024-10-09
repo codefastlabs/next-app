@@ -1,0 +1,18 @@
+services:
+  next_app_staging:
+    build:
+      context: ../../
+      dockerfile: Dockerfile
+      args:
+        - ENV_FILE=.env.staging.local
+    image: next_app_staging
+    container_name: next_app_staging
+    env_file:
+      - ../../.env.staging.local
+    ports:
+      - '3000:3000'
+    networks:
+      - next_app
+
+networks:
+  next_app:

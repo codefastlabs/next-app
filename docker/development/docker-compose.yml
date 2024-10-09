@@ -1,0 +1,18 @@
+services:
+  next_app_development:
+    build:
+      context: ../../
+      dockerfile: Dockerfile
+      args:
+        - ENV_FILE=.env.development.local
+    image: next_app_development
+    container_name: next_app_development
+    env_file:
+      - ../../.env.development.local
+    ports:
+      - '3000:3000'
+    networks:
+      - next_app
+
+networks:
+  next_app:
