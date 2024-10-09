@@ -51,9 +51,22 @@
   "dependencies": {
     "@codefast/hooks": "^0.1.33",
     "@codefast/ui": "^0.1.33",
+    "@hookform/resolvers": "^3.9.0",
+    "@tanstack/react-query": "^5.59.6",
+    "@tanstack/react-query-devtools": "^5.59.6",
+    "@tanstack/react-table": "^8.20.5",
+    "date-fns": "^4.1.0",
+    "jotai": "^2.10.0",
+    "lodash-es": "^4.17.21",
+    "lucide-react": "^0.451.0",
     "next": "^14.2.15",
+    "next-themes": "^0.3.0",
+    "path-to-regexp": "^8.2.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.0",
+    "recharts": "^2.12.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@codefast/config-tailwind": "^0.1.33",
@@ -61,6 +74,8 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@svgr/webpack": "^8.1.0",
+    "@tanstack/eslint-plugin-query": "^5.59.4",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -73,6 +88,7 @@
     "prettier-plugin-tailwindcss": "^0.6.8",
     "simple-git-hooks": "^2.11.1",
     "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.1",
     "typescript": "^5"
   }
 }
