@@ -9,20 +9,20 @@ importers:
   .:
     dependencies:
       '@codefast/hooks':
-        specifier: ^0.1.33
-        version: 0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.1.35
+        version: 0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@codefast/ui':
-        specifier: ^0.1.33
-        version: 0.1.33(@tanstack/react-table@8.20.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/lodash-es@4.17.12)(@types/react-dom@18.3.0)(@types/react@18.3.11)(lodash-es@4.17.21)(next-themes@0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react@18.3.1)(recharts@2.12.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))
+        specifier: ^0.1.35
+        version: 0.1.35(@tanstack/react-table@8.20.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/lodash-es@4.17.12)(@types/react-dom@18.3.0)(@types/react@18.3.11)(lodash-es@4.17.21)(next-themes@0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react@18.3.1)(recharts@2.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))
       '@hookform/resolvers':
         specifier: ^3.9.0
         version: 3.9.0(react-hook-form@7.53.0(react@18.3.1))
       '@tanstack/react-query':
-        specifier: ^5.59.6
-        version: 5.59.6(react@18.3.1)
+        specifier: ^5.59.9
+        version: 5.59.9(react@18.3.1)
       '@tanstack/react-query-devtools':
-        specifier: ^5.59.6
-        version: 5.59.6(@tanstack/react-query@5.59.6(react@18.3.1))(react@18.3.1)
+        specifier: ^5.59.9
+        version: 5.59.9(@tanstack/react-query@5.59.9(react@18.3.1))(react@18.3.1)
       '@tanstack/react-table':
         specifier: ^8.20.5
         version: 8.20.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -57,18 +57,18 @@ importers:
         specifier: ^7.53.0
         version: 7.53.0(react@18.3.1)
       recharts:
-        specifier: ^2.12.7
-        version: 2.12.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^2.13.0
+        version: 2.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
     devDependencies:
       '@codefast/config-tailwind':
-        specifier: ^0.1.33
-        version: 0.1.33(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))
+        specifier: ^0.1.35
+        version: 0.1.35(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))
       '@codefast/eslint-config':
-        specifier: ^0.1.33
-        version: 0.1.33(@next/eslint-plugin-next@14.2.15)(eslint@8.57.1)(jest@29.7.0(@types/node@20.16.11)(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))(prettier@3.3.3)(typescript@5.6.3)
+        specifier: ^0.1.35
+        version: 0.1.35(@next/eslint-plugin-next@14.2.15)(eslint@8.57.1)(jest@29.7.0(@types/node@20.16.11)(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))(prettier@3.3.3)(typescript@5.6.3)
       '@commitlint/cli':
         specifier: ^19.5.0
         version: 19.5.0(@types/node@20.16.11)(typescript@5.6.3)
@@ -79,8 +79,8 @@ importers:
         specifier: ^8.1.0
         version: 8.1.0(typescript@5.6.3)
       '@tanstack/eslint-plugin-query':
-        specifier: ^5.59.4
-        version: 5.59.4(eslint@8.57.1)(typescript@5.6.3)
+        specifier: ^5.59.7
+        version: 5.59.7(eslint@8.57.1)(typescript@5.6.3)
       '@testing-library/dom':
         specifier: ^10.4.0
         version: 10.4.0
@@ -106,7 +106,7 @@ importers:
         specifier: ^18
         version: 18.3.0
       eslint:
-        specifier: ^8
+        specifier: ^8.57.1
         version: 8.57.1
       eslint-config-next:
         specifier: 14.2.15
@@ -805,72 +805,72 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@codefast-ui/checkbox-group@0.1.33':
-    resolution: {integrity: sha512-TO0cZ6eIeJHUpNecXebf+RTlNW1XDzybPv0gGwA5r5RbmreQyF3ws+FU2qCni4SqGSSP/P6GJo9zK1bPBqbE0g==}
+  '@codefast-ui/checkbox-group@0.1.35':
+    resolution: {integrity: sha512-OlloVuvdjgJFX0LIyiNQQHe9DHU2aJi476OjbNiuvtizEHTWsg7gJgPSEVPFul9QPmGaI7e0g5K2HOaHwT45PQ==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: ^18.0 || ^19.0
-      react-dom: ^18.0 || ^19.0
+      react: ^18 || ^19
+      react-dom: ^18 || ^19
     peerDependenciesMeta:
       '@types/react':
         optional: true
       '@types/react-dom':
         optional: true
 
-  '@codefast-ui/input@0.1.33':
-    resolution: {integrity: sha512-2ot8WffX62e39oim+l4a8+dZPiJ/U39Mtuj9XYrlPlRXSKOski8gFE5Nbl+3IBcPPtRMrvb79nIpo5w58KIR5g==}
+  '@codefast-ui/input@0.1.35':
+    resolution: {integrity: sha512-BKagiinTaUhEheAAPeUVnAuwfo9wckxY3J0xUYD/73yOSmeAzc0ZGNEc98c5Si8DcF4ZEMmAXp6+nZzBQQvZeQ==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: ^18.0 || ^19.0
-      react-dom: ^18.0 || ^19.0
+      react: ^18 || ^19
+      react-dom: ^18 || ^19
     peerDependenciesMeta:
       '@types/react':
         optional: true
       '@types/react-dom':
         optional: true
 
-  '@codefast-ui/number-input@0.1.33':
-    resolution: {integrity: sha512-QGNj7b/PRUfe4HjVfyti2vZt0SFlC5ThLfK9WunwKkI/+Akkr4HxaueKdp5yMzwBMpvAnCs9QHDrEKAQ+oBVBw==}
+  '@codefast-ui/number-input@0.1.35':
+    resolution: {integrity: sha512-RMDX90C4favClVWnb9ORei/7NfzQTx7dguREHvsnvkFk8Zu+fSMjzYl6+CveLh82PEJcaY9ZbfXIrEliv0i5cA==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: ^18.0 || ^19.0
-      react-dom: ^18.0 || ^19.0
+      react: ^18 || ^19
+      react-dom: ^18 || ^19
     peerDependenciesMeta:
       '@types/react':
         optional: true
       '@types/react-dom':
         optional: true
 
-  '@codefast/config-tailwind@0.1.33':
-    resolution: {integrity: sha512-7CcBuvrBAZEkqyhmsGoqTlgUMXzHut2jnMOOK1NJkwFsW45tBKwXYA1IWylbpNTj6SpjFj3ZqnIe6We1XOXKpw==}
+  '@codefast/config-tailwind@0.1.35':
+    resolution: {integrity: sha512-qLdpHfz/0bziIOf/HZ0Xu8fcUSfitvRcm2DUXYnfdMNQ1TayI+8xhi+TsAsH5BjyXjSo1YyhlHby9WgZ0TudmA==}
     peerDependencies:
-      tailwindcss: ^3.0
+      tailwindcss: ^3
 
-  '@codefast/eslint-config@0.1.33':
-    resolution: {integrity: sha512-mr5KfaWSRSV2OHQNdWp8asbFjUQtnJ5J3UwK1Q/IoWYMrhSK3DoLVAFWP+KWEmER8AV9yryeZm+JjEmsTBjTfw==}
+  '@codefast/eslint-config@0.1.35':
+    resolution: {integrity: sha512-HlBdeSbpumshsiWP0wu0GJS5URBL5VxtpRCDeetZ7NlGwfle2zCG34qFUWzgspNqdR771DgySkzqdDSsVkimAw==}
     peerDependencies:
       eslint: ^8
 
-  '@codefast/hooks@0.1.33':
-    resolution: {integrity: sha512-2TJDUxk3SueDOyXTOZdt2zlaDAk8zHL8mQdrPajobZAOPx84LYDm5TLyH6O38L4rofgwddCFBWo5GZapvxGPdQ==}
+  '@codefast/hooks@0.1.35':
+    resolution: {integrity: sha512-s0ieNBIlwizpC4tXiRaF0rjZcriIgLOfqO7IwA+Vsy15K1ehsrfvQDKBIz03HoxF0U6oIkpF9PZoncqITs3F7Q==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: ^18.0 || ^19.0
-      react-dom: ^18.0 || ^19.0
+      react: ^18 || ^19
+      react-dom: ^18 || ^19
     peerDependenciesMeta:
       '@types/react':
         optional: true
       '@types/react-dom':
         optional: true
 
-  '@codefast/ui@0.1.33':
-    resolution: {integrity: sha512-rSQ+0GKOIC+w41wmkz0uJduqYkS4l22tYG9/wSTKST8iLP6CL6xARgJVzLGHZZ31fLXv1iUW8ByfSSUgOo8xsA==}
+  '@codefast/ui@0.1.35':
+    resolution: {integrity: sha512-oA4taee2pXUAc5zA73UnQ3oRMIll0nY51FiPLNuKk3cM5PidibXKZU/3uWXx3cXcx4O1aZDLGEbuFte5aExo5w==}
     peerDependencies:
-      '@tanstack/react-table': ^8.0
+      '@tanstack/react-table': ^8
       '@types/lodash-es': '*'
       '@types/react': '*'
       '@types/react-dom': '*'
@@ -2218,25 +2218,25 @@ packages:
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
-  '@tanstack/eslint-plugin-query@5.59.4':
-    resolution: {integrity: sha512-arYyy8lryy4GIX28NAYVsut330HJsbWU/GdR1H8gB72zAvh1dQZVKyRUOxWacrWLsS8JumqZBD1CU7QRWKx0YA==}
+  '@tanstack/eslint-plugin-query@5.59.7':
+    resolution: {integrity: sha512-txQGX5yC+4gmbR81EXaum2tOxeDQkRCWnaLmaP/pSrbIVCUkbMbrxxsaoOgN+fBqqqGo9V3LoCVL6ez1tRUF7Q==}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
-  '@tanstack/query-core@5.59.6':
-    resolution: {integrity: sha512-g58YTHe4ClRrjJ50GY9fas/0zARJVozY0Hs+hcSBOmwZaeKY+to0/LX8wKnnH/EJiLYcC1sHmE11CAS3ncfZBg==}
+  '@tanstack/query-core@5.59.9':
+    resolution: {integrity: sha512-vFGnblfJOKlOPyTR5M0ohWKb/03eGubh5KuGyzsDfc7VQ6F0nsB75kQIoLpwp3Wfj6fKv0wGoTUX8BsIfhxDfw==}
 
   '@tanstack/query-devtools@5.58.0':
     resolution: {integrity: sha512-iFdQEFXaYYxqgrv63ots+65FGI+tNp5ZS5PdMU1DWisxk3fez5HG3FyVlbUva+RdYS5hSLbxZ9aw3yEs97GNTw==}
 
-  '@tanstack/react-query-devtools@5.59.6':
-    resolution: {integrity: sha512-N6C2hCGF9aAKx+ESWjKmf5/ZkGttPCwVtCfBK9mxGOOo3iTC96jKzrZrqxk1BThXyTqJ6au8biBO4q9h2P4M2Q==}
+  '@tanstack/react-query-devtools@5.59.9':
+    resolution: {integrity: sha512-Vfr8JPgx4GxopQOqdQTC7MAUbX1vuEqeexCIX0RiwjUmNCoHKUg2Mh3rTZPsx8Y7wscc7eWkBjiz03Dt/YM3oQ==}
     peerDependencies:
-      '@tanstack/react-query': ^5.59.6
+      '@tanstack/react-query': ^5.59.9
       react: ^18 || ^19
 
-  '@tanstack/react-query@5.59.6':
-    resolution: {integrity: sha512-sGg2sNKg8cYf6aS1dzDf4weN+Vt9PfUu+0btwerrbtYysdNBbcGD4rPe9jhPgMtpDDlvi4cbLv+j1Qo814Kf+Q==}
+  '@tanstack/react-query@5.59.9':
+    resolution: {integrity: sha512-g2cbiw/ZIIrnUaQqhGtarTAsuLdKDNLtY5HNfRHVWY9kHDj96M4qs4ygJxHc119tPQpzZe4i9W7d2Gc2Gvng2A==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -4967,8 +4967,8 @@ packages:
   recharts-scale@0.4.5:
     resolution: {integrity: sha512-kivNFO+0OcUNu7jQquLXAxz1FIwZj8nrj+YkOKc5694NbjCvcT6aSZiIzNzd2Kul4o4rTto8QVR9lMNtxD4G1w==}
 
-  recharts@2.12.7:
-    resolution: {integrity: sha512-hlLJMhPQfv4/3NBSAyq3gzGg4h2v69RJh6KU7b3pXYNNAELs9kEoXOjbkxdXpALqKBoVmVptGfLpxdaVYqjmXQ==}
+  recharts@2.13.0:
+    resolution: {integrity: sha512-sbfxjWQ+oLWSZEWmvbq/DFVdeRLqqA6d0CDjKx2PkxVVdoXo16jvENCE+u/x7HxOO+/fwx//nYRwb8p8X6s/lQ==}
     engines: {node: '>=14'}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0 || ^18.0.0
@@ -6558,7 +6558,7 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@codefast-ui/checkbox-group@0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@codefast-ui/checkbox-group@0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@radix-ui/react-checkbox': 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-context': 1.1.1(@types/react@18.3.11)(react@18.3.1)
@@ -6571,7 +6571,7 @@ snapshots:
       '@types/react': 18.3.11
       '@types/react-dom': 18.3.0
 
-  '@codefast-ui/input@0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@codefast-ui/input@0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@radix-ui/react-compose-refs': 1.1.0(@types/react@18.3.11)(react@18.3.1)
       '@radix-ui/react-context': 1.1.1(@types/react@18.3.11)(react@18.3.1)
@@ -6581,9 +6581,9 @@ snapshots:
       '@types/react': 18.3.11
       '@types/react-dom': 18.3.0
 
-  '@codefast-ui/number-input@0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@codefast-ui/number-input@0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@codefast-ui/input': 0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@codefast-ui/input': 0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/primitive': 1.1.0
       '@radix-ui/react-compose-refs': 1.1.0(@types/react@18.3.11)(react@18.3.1)
       '@radix-ui/react-context': 1.1.1(@types/react@18.3.11)(react@18.3.1)
@@ -6594,11 +6594,11 @@ snapshots:
       '@types/react': 18.3.11
       '@types/react-dom': 18.3.0
 
-  '@codefast/config-tailwind@0.1.33(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))':
+  '@codefast/config-tailwind@0.1.35(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))':
     dependencies:
       tailwindcss: 3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3))
 
-  '@codefast/eslint-config@0.1.33(@next/eslint-plugin-next@14.2.15)(eslint@8.57.1)(jest@29.7.0(@types/node@20.16.11)(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))(prettier@3.3.3)(typescript@5.6.3)':
+  '@codefast/eslint-config@0.1.35(@next/eslint-plugin-next@14.2.15)(eslint@8.57.1)(jest@29.7.0(@types/node@20.16.11)(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))(prettier@3.3.3)(typescript@5.6.3)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)
       '@typescript-eslint/parser': 7.18.0(eslint@8.57.1)(typescript@5.6.3)
@@ -6618,7 +6618,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@codefast/hooks@0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@codefast/hooks@0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -6626,11 +6626,11 @@ snapshots:
       '@types/react': 18.3.11
       '@types/react-dom': 18.3.0
 
-  '@codefast/ui@0.1.33(@tanstack/react-table@8.20.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/lodash-es@4.17.12)(@types/react-dom@18.3.0)(@types/react@18.3.11)(lodash-es@4.17.21)(next-themes@0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react@18.3.1)(recharts@2.12.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))':
+  '@codefast/ui@0.1.35(@tanstack/react-table@8.20.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/lodash-es@4.17.12)(@types/react-dom@18.3.0)(@types/react@18.3.11)(lodash-es@4.17.21)(next-themes@0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react@18.3.1)(recharts@2.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))':
     dependencies:
-      '@codefast-ui/checkbox-group': 0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@codefast-ui/input': 0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@codefast-ui/number-input': 0.1.33(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@codefast-ui/checkbox-group': 0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@codefast-ui/input': 0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@codefast-ui/number-input': 0.1.35(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/primitive': 1.1.0
       '@radix-ui/react-accordion': 1.2.1(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-alert-dialog': 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -6677,7 +6677,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-hook-form: 7.53.0(react@18.3.1)
       react-resizable-panels: 2.1.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      recharts: 2.12.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      recharts: 2.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       sonner: 1.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tailwind-merge: 2.5.3
       tailwind-variants: 0.2.1(tailwindcss@3.4.13(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))
@@ -8112,7 +8112,7 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.7.0
 
-  '@tanstack/eslint-plugin-query@5.59.4(eslint@8.57.1)(typescript@5.6.3)':
+  '@tanstack/eslint-plugin-query@5.59.7(eslint@8.57.1)(typescript@5.6.3)':
     dependencies:
       '@typescript-eslint/utils': 8.8.1(eslint@8.57.1)(typescript@5.6.3)
       eslint: 8.57.1
@@ -8120,19 +8120,19 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tanstack/query-core@5.59.6': {}
+  '@tanstack/query-core@5.59.9': {}
 
   '@tanstack/query-devtools@5.58.0': {}
 
-  '@tanstack/react-query-devtools@5.59.6(@tanstack/react-query@5.59.6(react@18.3.1))(react@18.3.1)':
+  '@tanstack/react-query-devtools@5.59.9(@tanstack/react-query@5.59.9(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@tanstack/query-devtools': 5.58.0
-      '@tanstack/react-query': 5.59.6(react@18.3.1)
+      '@tanstack/react-query': 5.59.9(react@18.3.1)
       react: 18.3.1
 
-  '@tanstack/react-query@5.59.6(react@18.3.1)':
+  '@tanstack/react-query@5.59.9(react@18.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.59.6
+      '@tanstack/query-core': 5.59.9
       react: 18.3.1
 
   '@tanstack/react-table@8.20.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
@@ -11355,14 +11355,14 @@ snapshots:
     dependencies:
       decimal.js-light: 2.5.1
 
-  recharts@2.12.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  recharts@2.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       clsx: 2.1.1
       eventemitter3: 4.0.7
       lodash: 4.17.21
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-is: 16.13.1
+      react-is: 18.3.1
       react-smooth: 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       recharts-scale: 0.4.5
       tiny-invariant: 1.3.3
