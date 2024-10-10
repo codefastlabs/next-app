@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    optimizePackageImports: ['@codefast/ui'],
+  },
   output: 'standalone',
   webpack(config) {
     // Grab the existing rule that handles SVG imports
