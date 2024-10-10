@@ -57,7 +57,7 @@ If you omit the project name argument, the script will prompt you:
 Enter the new project name: next-fullstack-app
 ```
 
-## Important Notes
+### Important Notes
 
 - Ensure that `jq` is installed on your system to run the script. You can install it using your package manager. For example, on macOS, use Homebrew:
 
