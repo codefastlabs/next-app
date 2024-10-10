@@ -3,13 +3,13 @@ DEVELOPMENT_COMPOSE_FILE = docker/development/docker-compose.yml
 STAGING_COMPOSE_FILE = docker/staging/docker-compose.yml
 PRODUCTION_COMPOSE_FILE = docker/production/docker-compose.yml
 
-.PHONY: database-up database-down development-up development-down \
-        staging-up staging-down production-up production-down \
-        development-build development-build-up development-down-build-up \
-        staging-build staging-build-up staging-down-build-up \
-        production-build production-build-up production-down-build-up cleanup
+.PHONY: database-up database-down \
+				development-build development-up development-build-up development-down development-down-build-up \
+				staging-build staging-up staging-build-up staging-down staging-down-build-up \
+				production-build production-up production-build-up production-down production-down-build-up \
+				cleanup
 
-## region Database commands
+## Database commands
 database-up: ## Start the database docker container.
 	docker compose -f $(DATABASE_COMPOSE_FILE) up -d
 
