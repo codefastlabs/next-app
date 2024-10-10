@@ -10,9 +10,5 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 max_line_length = 120
 
-[*.t]
+[*.md]
 trim_trailing_whitespace = false
-
-[*.rs]
-# Keep in sync with rustfmt
-indent_size = 4
