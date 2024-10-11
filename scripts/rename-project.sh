@@ -20,6 +20,18 @@ function transform_name() {
   fi
 }
 
+# Function to replace all occurrences of project name in a file
+function replace_project_name_in_file() {
+  local file="$1"
+  local current_name="$2"
+  local new_name="$3"
+
+  CONTENT=$(<"$file")
+  NEW_CONTENT="${CONTENT//$current_name/$new_name}"
+  echo "$NEW_CONTENT" > "$file"
+  echo "Updated '$file' - replaced '$current_name' with '$new_name'."
+}
+
 # Check if jq is installed
 if ! command -v jq &> /dev/null; then
   echo "jq could not be found. Please install jq to use this script."
@@ -61,18 +73,6 @@ if [[ -f "package.json" ]]; then
 else
   echo "Warning: 'package.json' does not exist, skipping."
 fi
-
-# Function to replace all occurrences of project name in a file
-function replace_project_name_in_file() {
-  local file="$1"
-  local current_name="$2"
-  local new_name="$3"
-
-  CONTENT=$(<"$file")
-  NEW_CONTENT="${CONTENT//$current_name/$new_name}"
-  echo "$NEW_CONTENT" > "$file"
-  echo "Updated '$file' - replaced '$current_name' with '$new_name'."
-}
 
 # Define docker-compose files and env files to update
 docker_files=(
