@@ -53,8 +53,8 @@
     ]
   },
   "dependencies": {
-    "@codefast/hooks": "^0.1.35",
-    "@codefast/ui": "^0.1.35",
+    "@codefast/hooks": "^0.1.38",
+    "@codefast/ui": "^0.1.38",
     "@hookform/resolvers": "^3.9.0",
     "@tanstack/react-query": "^5.59.9",
     "@tanstack/react-query-devtools": "^5.59.9",
@@ -73,8 +73,8 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@codefast/config-tailwind": "^0.1.35",
-    "@codefast/eslint-config": "^0.1.35",
+    "@codefast/config-tailwind": "^0.1.38",
+    "@codefast/eslint-config": "^0.1.38",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@svgr/webpack": "^8.1.0",
