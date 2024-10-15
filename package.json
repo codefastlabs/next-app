@@ -44,6 +44,7 @@
   "prettier": {
     "plugins": [
       "prettier-plugin-packagejson",
+      "prettier-plugin-organize-imports",
       "prettier-plugin-tailwindcss"
     ],
     "printWidth": 120,
@@ -53,11 +54,11 @@
     ]
   },
   "dependencies": {
-    "@codefast/hooks": "^0.1.38",
-    "@codefast/ui": "^0.1.38",
+    "@codefast/hooks": "^0.1.41",
+    "@codefast/ui": "^0.1.41",
     "@hookform/resolvers": "^3.9.0",
-    "@tanstack/react-query": "^5.59.13",
-    "@tanstack/react-query-devtools": "^5.59.13",
+    "@tanstack/react-query": "^5.59.14",
+    "@tanstack/react-query-devtools": "^5.59.14",
     "@tanstack/react-table": "^8.20.5",
     "date-fns": "^4.1.0",
     "jotai": "^2.10.0",
@@ -73,8 +74,8 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@codefast/config-tailwind": "^0.1.38",
-    "@codefast/eslint-config": "^0.1.38",
+    "@codefast/config-tailwind": "^0.1.41",
+    "@codefast/eslint-config": "^0.1.41",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@svgr/webpack": "^8.1.0",
@@ -88,12 +89,13 @@
     "@types/react": "^18",
     "@types/react-dom": "^18.3.1",
     "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.15",
+    "eslint-config-next": "^14.2.15",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^15.2.10",
     "postcss": "^8",
     "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-packagejson": "^2.5.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "simple-git-hooks": "^2.11.1",

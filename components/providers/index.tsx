@@ -1,9 +1,9 @@
 'use client';
 
+import { QueryClientProvider } from '@/components/providers/query-client-provider';
+import { Toaster } from '@codefast/ui';
 import { Provider as JotaiProvider } from 'jotai';
 import { type JSX, type ReactNode } from 'react';
-import { Toaster } from '@codefast/ui';
-import { QueryClientProvider } from '@/components/providers/query-client-provider';
 
 /**
  * Wraps the provided React components with the necessary context providers.
