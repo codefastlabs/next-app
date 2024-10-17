@@ -1,7 +1,8 @@
-import { getQueryClient } from '@/lib/get-query-client';
 import { QueryClientProvider as Provider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { type JSX, type ReactNode } from 'react';
+
+import { getQueryClient } from '@/lib/get-query-client';
 
 /**
  * Provides a query client to the child components.

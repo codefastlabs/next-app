@@ -1,8 +1,10 @@
-import { geistMono, geistSans } from '@/app/fonts';
-import '@/app/globals.css';
-import { Providers } from '@/components/providers';
 import type { Metadata } from 'next';
 import { type JSX } from 'react';
+
+import { geistMono, geistSans } from '@/app/fonts';
+import { Providers } from '@/components/providers';
+
+import '@/app/globals.css';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
