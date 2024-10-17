@@ -9,24 +9,6 @@
     "postinstall": "pnpm exec simple-git-hooks",
     "lint": "next lint --fix --max-warnings 0",
     "lint:check": "next lint --max-warnings 0",
-    "make:cleanup": "make cleanup",
-    "make:db:down": "make database-down",
-    "make:db:up": "make database-up",
-    "make:dev:build": "make development-build",
-    "make:dev:build-up": "make development-build-up",
-    "make:dev:down": "make development-down",
-    "make:dev:down-build-up": "make development-down-build-up",
-    "make:dev:up": "make development-up",
-    "make:prod:build": "make production-build",
-    "make:prod:build-up": "make production-build-up",
-    "make:prod:down": "make production-down",
-    "make:prod:down-build-up": "make production-down-build-up",
-    "make:prod:up": "make production-up",
-    "make:staging:build": "make staging-build",
-    "make:staging:build-up": "make staging-build-up",
-    "make:staging:down": "make staging-down",
-    "make:staging:down-build-up": "make staging-down-build-up",
-    "make:staging:up": "make staging-up",
     "package:install": "pnpm install",
     "package:reinstall": "rm -rf node_modules .next pnpm-lock.yaml && pnpm install",
     "package:update": "pnpm update --interactive --recursive",
@@ -44,7 +26,6 @@
   "prettier": {
     "plugins": [
       "prettier-plugin-packagejson",
-      "prettier-plugin-organize-imports",
       "prettier-plugin-tailwindcss"
     ],
     "printWidth": 120,
@@ -54,8 +35,8 @@
     ]
   },
   "dependencies": {
-    "@codefast/hooks": "^0.1.41",
-    "@codefast/ui": "^0.1.41",
+    "@codefast/hooks": "^0.1.43",
+    "@codefast/ui": "^0.1.43",
     "@hookform/resolvers": "^3.9.0",
     "@tanstack/react-query": "^5.59.14",
     "@tanstack/react-query-devtools": "^5.59.14",
@@ -65,18 +46,18 @@
     "jotai": "^2.10.1",
     "lodash-es": "^4.17.21",
     "lucide-react": "^0.451.0",
-    "next": "^15.0.0-canary.195",
+    "next": "15.0.0-canary.195",
     "next-themes": "^0.3.0",
     "path-to-regexp": "^8.2.0",
-    "react": "^19.0.0-rc-cd22717c-20241013",
-    "react-dom": "^19.0.0-rc-cd22717c-20241013",
+    "react": "19.0.0-rc-cd22717c-20241013",
+    "react-dom": "19.0.0-rc-cd22717c-20241013",
     "react-hook-form": "^7.53.0",
     "recharts": "^2.13.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@codefast/config-tailwind": "^0.1.41",
-    "@codefast/eslint-config": "^0.1.41",
+    "@codefast/config-tailwind": "^0.1.43",
+    "@codefast/eslint-config": "^0.1.43",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@svgr/webpack": "^8.1.0",
@@ -90,13 +71,12 @@
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^15.0.0-canary.195",
+    "eslint-config-next": "15.0.0-canary.195",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^15.2.10",
     "postcss": "^8",
     "prettier": "^3.3.3",
-    "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-packagejson": "^2.5.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "simple-git-hooks": "^2.11.1",
@@ -109,8 +89,8 @@
     "overrides": {
       "@types/react": "npm:types-react@19.0.0-rc.1",
       "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-      "react": "^19.0.0-rc-cd22717c-20241013",
-      "react-dom": "^19.0.0-rc-cd22717c-20241013"
+      "react": "19.0.0-rc-cd22717c-20241013",
+      "react-dom": "19.0.0-rc-cd22717c-20241013"
     }
   }
 }
