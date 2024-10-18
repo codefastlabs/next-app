@@ -80,8 +80,9 @@ Quickly set up your environment by running:
 ```bash
 echo "REACT_EDITOR=webstorm" > .env.local
 cp .env.development.sample .env.development.local
-cp .env.staging.sample .env.staging.local
 cp .env.production.sample .env.production.local
+cp .env.staging.sample .env.staging.local
+cp .env.test.sample .env.test.local
 ```
 
 ### Start the Development Server
