@@ -81,7 +81,7 @@ docker_files=(
   "docker/production/docker-compose.yml"
   "docker/staging/docker-compose.yml"
 )
-env_files=(".env.development.sample")
+env_files=(".env.sample")
 
 # Update docker-compose files
 for FILE in "${docker_files[@]}"; do
