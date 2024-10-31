@@ -74,6 +74,14 @@ else
   echo "Warning: 'package.json' does not exist, skipping."
 fi
 
+# Update the project name in the .idea directory
+if [[ -f ".idea/$CURRENT_NAME.iml" ]]; then
+  # Replace project name in .idea files
+  mv ".idea/$CURRENT_NAME.iml" ".idea/$NEW_NAME_LOWER_DASHES.iml"
+else
+  echo "Warning: '.idea/$CURRENT_NAME.iml' does not exist, skipping."
+fi
+
 # Define docker-compose files and env files to update
 docker_files=(
   "docker/database/docker-compose.yml"
@@ -81,7 +89,13 @@ docker_files=(
   "docker/production/docker-compose.yml"
   "docker/staging/docker-compose.yml"
 )
-env_files=(".env.sample")
+env_files=(
+  ".env.sample"
+)
+ide_files=(
+  ".idea/dataSources.xml"
+  ".idea/modules.xml"
+)
 
 # Update docker-compose files
 for FILE in "${docker_files[@]}"; do
@@ -99,6 +113,15 @@ for FILE in "${env_files[@]}"; do
   else
     echo "Warning: '$FILE' does not exist, skipping."
   fi
+done
+
+# Update ide files
+for FILE in "${ide_files[@]}"; do
+  if [[ -f "$FILE" ]]; then
+      replace_project_name_in_file "$FILE" "$CURRENT_NAME_UNDERSCORES" "$NEW_NAME_UNDERSCORES"
+    else
+      echo "Warning: '$FILE' does not exist, skipping."
+    fi
 done
 
 echo "Project name updated from '$CURRENT_NAME' to '$NEW_NAME'."
