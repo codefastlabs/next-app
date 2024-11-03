@@ -1,8 +1,8 @@
 import { type Metadata } from 'next';
 import { type JSX } from 'react';
 
-import { geistMono, geistSans } from '@/app/fonts';
 import { Providers } from '@/components/providers';
+import { geistMono, geistSans } from '@/lib/fonts';
 
 import '@/app/globals.css';
 
