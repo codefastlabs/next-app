@@ -5,9 +5,3 @@ declare module '*.svg' {
 
   export default content;
 }
-
-declare module '*.svg?url' {
-  const content: never;
-
-  export default content;
-}
