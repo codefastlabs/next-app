@@ -1,5 +1,6 @@
-import Page from '@/app/page';
 import { render, screen } from '@testing-library/react';
+
+import Page from '@/app/page';
 
 test('renders the Page component', () => {
   render(<Page />);
