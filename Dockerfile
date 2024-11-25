@@ -47,6 +47,8 @@ RUN if [ -f "$ENV_FILE" ] && [ "$ENV_FILE" != ".env.production.local" ]; then \
 # For more information, see: https://nextjs.org/telemetry
 # Uncomment the line below to explicitly disable telemetry.
 ENV NEXT_TELEMETRY_DISABLED=1
+# Configure Next.js to output a standalone build
+ENV NEXT_CONFIG_BUILD_OUTPUT="standalone"
 
 # Build the application using the appropriate package manager based on lock file presence
 RUN \

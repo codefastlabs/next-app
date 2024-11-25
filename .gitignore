@@ -38,3 +38,9 @@ next-env.d.ts
 
 # log
 *.log
+
+# e2e test
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
