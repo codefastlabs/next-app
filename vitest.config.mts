@@ -14,7 +14,6 @@ export default defineConfig({
       reportsDirectory: './coverage',
     },
     environment: 'jsdom',
-    globals: true,
     setupFiles: './vitest.setup.ts',
   },
 });
