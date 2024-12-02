@@ -1,6 +1,3 @@
 {
-  "extends": ["@codefast/eslint-config/next", "plugin:@tanstack/query/recommended"],
-  "globals": {
-    "vi": true
-  }
+  "extends": ["@codefast/eslint-config/next", "plugin:@tanstack/query/recommended"]
 }
