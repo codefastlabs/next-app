@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@codefast/hooks':
-        specifier: 0.2.0
-        version: 0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 0.2.2
+        version: 0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@codefast/ui':
-        specifier: 0.2.0
-        version: 0.2.0(@tanstack/react-table@8.20.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@types/lodash-es@4.17.12)(@types/react-dom@19.0.0)(@types/react@19.0.0)(date-fns@4.1.0)(lodash-es@4.17.21)(next-themes@0.4.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-hook-form@7.53.2(react@19.0.0))(react@19.0.0)(recharts@2.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))
+        specifier: 0.2.2
+        version: 0.2.2(@tanstack/react-table@8.20.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@types/lodash-es@4.17.12)(@types/react-dom@19.0.0)(@types/react@19.0.0)(date-fns@4.1.0)(lodash-es@4.17.21)(next-themes@0.4.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-hook-form@7.54.0(react@19.0.0))(react@19.0.0)(recharts@2.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))
       '@hookform/resolvers':
         specifier: 3.9.1
-        version: 3.9.1(react-hook-form@7.53.2(react@19.0.0))
+        version: 3.9.1(react-hook-form@7.54.0(react@19.0.0))
       '@next/env':
         specifier: 15.0.4
         version: 15.0.4
       '@tanstack/react-query':
-        specifier: 5.62.2
-        version: 5.62.2(react@19.0.0)
+        specifier: 5.62.3
+        version: 5.62.3(react@19.0.0)
       '@tanstack/react-query-devtools':
-        specifier: 5.62.2
-        version: 5.62.2(@tanstack/react-query@5.62.2(react@19.0.0))(react@19.0.0)
+        specifier: 5.62.3
+        version: 5.62.3(@tanstack/react-query@5.62.3(react@19.0.0))(react@19.0.0)
       '@tanstack/react-table':
         specifier: 8.20.5
         version: 8.20.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -63,8 +63,8 @@ importers:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
       react-hook-form:
-        specifier: 7.53.2
-        version: 7.53.2(react@19.0.0)
+        specifier: 7.54.0
+        version: 7.54.0(react@19.0.0)
       recharts:
         specifier: 2.14.1
         version: 2.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -73,11 +73,11 @@ importers:
         version: 3.23.8
     devDependencies:
       '@codefast/eslint-config':
-        specifier: 0.2.0
-        version: 0.2.0(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)
+        specifier: 0.2.2
+        version: 0.2.2(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)
       '@codefast/tailwind-config':
-        specifier: 0.2.0
-        version: 0.2.0(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))
+        specifier: 0.2.2
+        version: 0.2.2(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))
       '@commitlint/cli':
         specifier: 19.6.0
         version: 19.6.0(@types/node@22.10.1)(typescript@5.7.2)
@@ -791,8 +791,8 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@codefast-ui/checkbox-group@0.2.0':
-    resolution: {integrity: sha512-FsRmZo5keqibNxA3zkJ57mxlZOBt0eeOrFh9KlortV7Vtdqn4/d8HHYdWvUV+/igj+12PKmEftMt+ycHphVuFg==}
+  '@codefast-ui/checkbox-group@0.2.2':
+    resolution: {integrity: sha512-bNlGBLAvJkZfHjs7RZJHYQRwYkTBi8xfSU6RPoGgzwZtfhyOQ7os8lZVVgd0NKaaJvk9kqstrsdtgq6DYMl6aw==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
@@ -804,8 +804,8 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@codefast-ui/day-picker@0.2.0':
-    resolution: {integrity: sha512-0MUfvUou8a0Hk//lFkIPhCOAL0REVbeXkMk28Gvdd9Rdp72hKKVAiQsmunw4T9ej/kNIRn4Hi8ZGZoDiiQDRUA==}
+  '@codefast-ui/day-picker@0.2.2':
+    resolution: {integrity: sha512-T4BWtuTJ53PcinYpU5dJbbEqxrLsdivRavDkQuOAFgWb0HlUy03es9AHRWfUWRKWetRh0fnr5xcxvW/fFbJvpA==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
@@ -817,8 +817,8 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@codefast-ui/input@0.2.0':
-    resolution: {integrity: sha512-ABwjEsFXQwFr70uc9F1bBFZzDxnvc8JNbPAaZEufbF8Owfl1K0wd0rzQMVsxBfwcQVPHJm+MFZpndsa3udIG+Q==}
+  '@codefast-ui/input@0.2.2':
+    resolution: {integrity: sha512-0V8c/AsNOOu5roomRTaO12tXidkw4QqeN3VLo6RINC41sJliw1d1BbtoakZss8rsO3obGnguX3UPgsXyYc5oRA==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
@@ -830,8 +830,8 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@codefast-ui/number-input@0.2.0':
-    resolution: {integrity: sha512-962bMzQdhs23M5qNkSJook4zrjCOI9AIn507//H+MacnOhniHTcsEvNs6dbsrYoBbx9cHLDf8KZkPRyAFEpLBg==}
+  '@codefast-ui/number-input@0.2.2':
+    resolution: {integrity: sha512-6nOHsKKZFf6YIj9QY2vdC1rMe7QsVC/y0fJWjuuvapxlt0d9x+NWiD21O1HZZEs1YKZWXQK1ckV+wOBXumBwcA==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
@@ -843,16 +843,16 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@codefast/eslint-config@0.2.0':
-    resolution: {integrity: sha512-n7Zev5uTjuUF9wHmO6nEV/eGgMUKkjyFXtgLN5q0mU1vo/hppaOD4L/fAvcTb3sYVyBeWOHrO3ruKVBORLcR6g==}
+  '@codefast/eslint-config@0.2.2':
+    resolution: {integrity: sha512-Cx7UfhvjOaFq967w1hVwkEXxM0wlfYZ/ZWJa1RfRx+2Nb73XDO3eyeq+R9jlczSc2qp3D9IFsFRINEdIX5ZjTA==}
     peerDependencies:
       eslint: '>=9'
     peerDependenciesMeta:
       eslint:
         optional: true
 
-  '@codefast/hooks@0.2.0':
-    resolution: {integrity: sha512-//s3MF1OkFO9aE0hTCoVfuWCQzl4ToioT860QZx25oCuZe6xCi+7BAgILT0TU2uxab77xQ/gVMX6Abbi9BlsbA==}
+  '@codefast/hooks@0.2.2':
+    resolution: {integrity: sha512-FO7iMIaQ+r4X8e9EcyCjv6bOJpxjoVHu7SHDjRrqbnbIO7iptup21VV8GLzmw17oAHLoybBtsIp18a2zIuqMcQ==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
@@ -864,8 +864,8 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@codefast/style-guide@0.2.0':
-    resolution: {integrity: sha512-IJ/5+8JLsV+zfvSzGBOUDOHUK7UbgNPwBjqbJaJu2zp0ftUjfN3+ZpmWe2wd0dKfsfR2OrkddYPQ8vzCVYjKhg==}
+  '@codefast/style-guide@0.2.2':
+    resolution: {integrity: sha512-6KmHZes/4zNbsvZWnpzSSywctfN7rfoWrTop0c6Ydu3RvCL8VpdpY7dcb1Qao8Or8IjNppsAU+U8l+dYKUhPOQ==}
     peerDependencies:
       eslint: '>=9'
       prettier: '>=3'
@@ -878,13 +878,13 @@ packages:
       typescript:
         optional: true
 
-  '@codefast/tailwind-config@0.2.0':
-    resolution: {integrity: sha512-qYECt25YPpFWN9/spriFh/x1rrvHgfEnh1cbjNO0NWbMLUFZrGVKGkBlzax3vXUD2VCacTiMrGUMkcbZvjPoKw==}
+  '@codefast/tailwind-config@0.2.2':
+    resolution: {integrity: sha512-SY/N3LL4+ZNFSzwJGHo3WMX79SItwKgC9SFXxHilXD+BzC/SdJS7yUITiKCQOBGigbR8elKmnCncv9D6c6I8fw==}
     peerDependencies:
       tailwindcss: '>=3'
 
-  '@codefast/ui@0.2.0':
-    resolution: {integrity: sha512-EcakizenkZpN+8SmiQ0NIpisKl1M7GYJuvs1P6JfVsga9vAggulzsamYK8fNuDCvK8RWS9zdB5/EZx3QJ0zVxw==}
+  '@codefast/ui@0.2.2':
+    resolution: {integrity: sha512-IeQBsVy52h/Kd/NS8BdcSaj1sX9mElhRIHjVfAGolQZt4dVOGftcwJM0yvkE8OiaJIJ9lg6pP4+I7f4xNsznyQ==}
     peerDependencies:
       '@tanstack/react-table': '>=8'
       '@types/lodash-es': '*'
@@ -1276,9 +1276,6 @@ packages:
 
   '@next/env@15.0.4':
     resolution: {integrity: sha512-WNRvtgnRVDD4oM8gbUcRc27IAhaL4eXQ/2ovGbgLnPGUvdyDr8UdXP4Q/IBDdAdojnD2eScryIDirv0YUCjUVw==}
-
-  '@next/eslint-plugin-next@15.0.3':
-    resolution: {integrity: sha512-3Ln/nHq2V+v8uIaxCR6YfYo7ceRgZNXfTd3yW1ukTaFbO+/I8jNakrjYWODvG9BuR2v5kgVtH/C8r0i11quOgw==}
 
   '@next/eslint-plugin-next@15.0.4':
     resolution: {integrity: sha512-rbsF17XGzHtR7SDWzWpavSfum3/UdnF8bAaisnKwP//si3KWPTedVUsflAdjyK1zW3rweBjbALfKcavFneLGvg==}
@@ -2067,20 +2064,20 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
-  '@tanstack/query-core@5.62.2':
-    resolution: {integrity: sha512-LcwVcC5qpsDpHcqlXUUL5o9SaOBwhNkGeV+B06s0GBoyBr8FqXPuXT29XzYXR36lchhnerp6XO+CWc84/vh7Zg==}
+  '@tanstack/query-core@5.62.3':
+    resolution: {integrity: sha512-Jp/nYoz8cnO7kqhOlSv8ke/0MJRJVGuZ0P/JO9KQ+f45mpN90hrerzavyTKeSoT/pOzeoOUkv1Xd0wPsxAWXfg==}
 
   '@tanstack/query-devtools@5.61.4':
     resolution: {integrity: sha512-21Tw+u8E3IJJj4A/Bct4H0uBaDTEu7zBrR79FeSyY+mS2gx5/m316oDtJiKkILc819VSTYt+sFzODoJNcpPqZQ==}
 
-  '@tanstack/react-query-devtools@5.62.2':
-    resolution: {integrity: sha512-s4+88OZ6ygD4ziNfUgh9y1XxsGqpscI77c8EaLP7KwEfa5WqnlB9MT/uslFkFq3vwb8JhMjB7Osv2MYrSMry6w==}
+  '@tanstack/react-query-devtools@5.62.3':
+    resolution: {integrity: sha512-4iaQap/iP5ErS094u1WehFntHtjRo6g5HJMvyHovBVbsxnvgPc6AtKAw7qxPPoKy6Wj5Bew0045eYP5phiiBmw==}
     peerDependencies:
-      '@tanstack/react-query': ^5.62.2
+      '@tanstack/react-query': ^5.62.3
       react: ^18 || ^19
 
-  '@tanstack/react-query@5.62.2':
-    resolution: {integrity: sha512-fkTpKKfwTJtVPKVR+ag7YqFgG/7TRVVPzduPAUF9zRCiiA8Wu305u+KJl8rCrh98Qce77vzIakvtUyzWLtaPGA==}
+  '@tanstack/react-query@5.62.3':
+    resolution: {integrity: sha512-y2zDNKuhgiuMgsKkqd4AcsLIBiCfEO8U11AdrtAUihmLbRNztPrlcZqx2lH1GacZsx+y1qRRbCcJLYTtF1vKsw==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -2200,6 +2197,9 @@ packages:
 
   '@types/jest@29.5.14':
     resolution: {integrity: sha512-ZN+4sdnLUbo8EVvVc2ao0GFW6oVrQRPn4K2lglySj7APvSrgzxHiNNK99us4WDMi57xxA2yggblIAMNhXOotLQ==}
+
+  '@types/js-cookie@3.0.6':
+    resolution: {integrity: sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==}
 
   '@types/jsdom@20.0.1':
     resolution: {integrity: sha512-d0r18sZPmMQr1eG35u12FZfhIXNrnsPU/g5wvRKCUf/tOGilKKwYMYGqh33BNR6ba+2gkHw1EUiHoN3mn7E5IQ==}
@@ -3112,12 +3112,6 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-import-resolver-alias@1.1.2:
-    resolution: {integrity: sha512-WdviM1Eu834zsfjHtcGHtGfcu+F30Od3V7I9Fi57uhBEwPkjDcii7/yW8jAT+gOhn4P/vOxxNAXbFAKsrrc15w==}
-    engines: {node: '>= 4'}
-    peerDependencies:
-      eslint-plugin-import: '>=1.4.0'
-
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
 
@@ -3193,12 +3187,6 @@ packages:
     engines: {node: '>=16.6.0'}
     peerDependencies:
       eslint: '>=8.40.0'
-
-  eslint-plugin-react-hooks@5.0.0:
-    resolution: {integrity: sha512-hIOwI+5hYGpJEc4uPRmz2ulCjAGD/N13Lukkh8cLV0i2IRk/bdZDYjgLVHj+U9Z704kLIdIO6iueGvxNur0sgw==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
   eslint-plugin-react-hooks@5.1.0:
     resolution: {integrity: sha512-mpJRtPgHN2tNAvZ35AMfqeB3Xqeo273QxrHJsbBEPWODRM4r0yB6jfoROqKEYrOn27UtRPpcpHc2UqyBSuUNTw==}
@@ -3958,6 +3946,10 @@ packages:
       react:
         optional: true
 
+  js-cookie@3.0.5:
+    resolution: {integrity: sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==}
+    engines: {node: '>=14'}
+
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
@@ -4602,8 +4594,8 @@ packages:
     peerDependencies:
       react: ^19.0.0
 
-  react-hook-form@7.53.2:
-    resolution: {integrity: sha512-YVel6fW5sOeedd1524pltpHX+jgU2u3DSDtXEaBORNdqiNrsX/nUI/iGXONegttg0mJVnfrIkiV0cmTU6Oo2xw==}
+  react-hook-form@7.54.0:
+    resolution: {integrity: sha512-PS05+UQy/IdSbJNojBypxAo9wllhHgGmyr8/dyGQcPoiMf3e7Dfb9PWYVRco55bLbxH9S+1yDDJeTdlYCSxO3A==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -6210,7 +6202,7 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@codefast-ui/checkbox-group@0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@codefast-ui/checkbox-group@0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@radix-ui/react-checkbox': 1.1.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-context': 1.1.1(@types/react@19.0.0)(react@19.0.0)
@@ -6223,7 +6215,7 @@ snapshots:
       '@types/react': 19.0.0
       '@types/react-dom': 19.0.0
 
-  '@codefast-ui/day-picker@0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@codefast-ui/day-picker@0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@date-fns/tz': 1.2.0
       date-fns: 4.1.0
@@ -6233,7 +6225,7 @@ snapshots:
       '@types/react': 19.0.0
       '@types/react-dom': 19.0.0
 
-  '@codefast-ui/input@0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@codefast-ui/input@0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@radix-ui/react-compose-refs': 1.1.0(@types/react@19.0.0)(react@19.0.0)
       '@radix-ui/react-context': 1.1.1(@types/react@19.0.0)(react@19.0.0)
@@ -6243,9 +6235,9 @@ snapshots:
       '@types/react': 19.0.0
       '@types/react-dom': 19.0.0
 
-  '@codefast-ui/number-input@0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@codefast-ui/number-input@0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@codefast-ui/input': 0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@codefast-ui/input': 0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/primitive': 1.1.0
       '@radix-ui/react-compose-refs': 1.1.0(@types/react@19.0.0)(react@19.0.0)
       '@radix-ui/react-context': 1.1.1(@types/react@19.0.0)(react@19.0.0)
@@ -6256,9 +6248,10 @@ snapshots:
       '@types/react': 19.0.0
       '@types/react-dom': 19.0.0
 
-  '@codefast/eslint-config@0.2.0(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)':
+  '@codefast/eslint-config@0.2.2(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)':
     dependencies:
-      '@codefast/style-guide': 0.2.0(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)
+      '@codefast/style-guide': 0.2.2(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)
+      eslint-plugin-only-warn: 1.1.0
       globals: 15.13.0
     optionalDependencies:
       eslint: 9.16.0(jiti@1.21.6)
@@ -6266,15 +6259,15 @@ snapshots:
       - '@typescript-eslint/eslint-plugin'
       - '@typescript-eslint/parser'
       - '@typescript-eslint/utils'
+      - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
-      - eslint-plugin-import-x
       - jest
       - prettier
       - supports-color
       - typescript
       - vitest
 
-  '@codefast/hooks@0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@codefast/hooks@0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -6282,22 +6275,20 @@ snapshots:
       '@types/react': 19.0.0
       '@types/react-dom': 19.0.0
 
-  '@codefast/style-guide@0.2.0(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)':
+  '@codefast/style-guide@0.2.2(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(prettier@3.4.2)(typescript@5.7.2)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.1(eslint@9.16.0(jiti@1.21.6))
       '@eslint/js': 9.16.0
-      '@next/eslint-plugin-next': 15.0.3
+      '@next/eslint-plugin-next': 15.0.4
       '@vitest/eslint-plugin': 1.1.14(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint-config-prettier: 9.1.0(eslint@9.16.0(jiti@1.21.6))
-      eslint-import-resolver-alias: 1.1.2(eslint-plugin-import@2.31.0)
-      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0)(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-jest: 28.9.0(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(jest@29.7.0(@types/node@22.10.1)(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))(typescript@5.7.2)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-only-warn: 1.1.0
       eslint-plugin-playwright: 2.1.0(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-react: 7.37.2(eslint@9.16.0(jiti@1.21.6))
-      eslint-plugin-react-hooks: 5.0.0(eslint@9.16.0(jiti@1.21.6))
+      eslint-plugin-react-hooks: 5.1.0(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-testing-library: 7.1.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint-plugin-tsdoc: 0.4.0
       eslint-plugin-turbo: 2.3.3(eslint@9.16.0(jiti@1.21.6))
@@ -6311,23 +6302,23 @@ snapshots:
       - '@typescript-eslint/eslint-plugin'
       - '@typescript-eslint/parser'
       - '@typescript-eslint/utils'
+      - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
-      - eslint-plugin-import-x
       - jest
       - supports-color
       - vitest
 
-  '@codefast/tailwind-config@0.2.0(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))':
+  '@codefast/tailwind-config@0.2.2(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))':
     dependencies:
       tailwindcss: 3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2))
 
-  '@codefast/ui@0.2.0(@tanstack/react-table@8.20.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@types/lodash-es@4.17.12)(@types/react-dom@19.0.0)(@types/react@19.0.0)(date-fns@4.1.0)(lodash-es@4.17.21)(next-themes@0.4.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-hook-form@7.53.2(react@19.0.0))(react@19.0.0)(recharts@2.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))':
+  '@codefast/ui@0.2.2(@tanstack/react-table@8.20.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@types/lodash-es@4.17.12)(@types/react-dom@19.0.0)(@types/react@19.0.0)(date-fns@4.1.0)(lodash-es@4.17.21)(next-themes@0.4.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-hook-form@7.54.0(react@19.0.0))(react@19.0.0)(recharts@2.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.1)(typescript@5.7.2)))':
     dependencies:
-      '@codefast-ui/checkbox-group': 0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@codefast-ui/day-picker': 0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@codefast-ui/input': 0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@codefast-ui/number-input': 0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@codefast/hooks': 0.2.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@codefast-ui/checkbox-group': 0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@codefast-ui/day-picker': 0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@codefast-ui/input': 0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@codefast-ui/number-input': 0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@codefast/hooks': 0.2.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/primitive': 1.1.0
       '@radix-ui/react-accordion': 1.2.1(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-alert-dialog': 1.1.2(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -6360,17 +6351,19 @@ snapshots:
       '@radix-ui/react-use-controllable-state': 1.1.0(@types/react@19.0.0)(react@19.0.0)
       '@radix-ui/react-visually-hidden': 1.1.0(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@tanstack/react-table': 8.20.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@types/js-cookie': 3.0.6
       clsx: 2.1.1
       cmdk: 1.0.4(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       date-fns: 4.1.0
       embla-carousel-react: 8.5.1(react@19.0.0)
       input-otp: 1.4.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      js-cookie: 3.0.5
       lodash-es: 4.17.21
       lucide-react: 0.468.0(react@19.0.0)
       next-themes: 0.4.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      react-hook-form: 7.53.2(react@19.0.0)
+      react-hook-form: 7.54.0(react@19.0.0)
       react-resizable-panels: 2.1.7(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       recharts: 2.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       sonner: 1.7.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -6569,9 +6562,9 @@ snapshots:
 
   '@floating-ui/utils@0.2.8': {}
 
-  '@hookform/resolvers@3.9.1(react-hook-form@7.53.2(react@19.0.0))':
+  '@hookform/resolvers@3.9.1(react-hook-form@7.54.0(react@19.0.0))':
     dependencies:
-      react-hook-form: 7.53.2(react@19.0.0)
+      react-hook-form: 7.54.0(react@19.0.0)
 
   '@humanfs/core@0.19.1': {}
 
@@ -6874,10 +6867,6 @@ snapshots:
   '@microsoft/tsdoc@0.15.1': {}
 
   '@next/env@15.0.4': {}
-
-  '@next/eslint-plugin-next@15.0.3':
-    dependencies:
-      fast-glob: 3.3.1
 
   '@next/eslint-plugin-next@15.0.4':
     dependencies:
@@ -7694,19 +7683,19 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tanstack/query-core@5.62.2': {}
+  '@tanstack/query-core@5.62.3': {}
 
   '@tanstack/query-devtools@5.61.4': {}
 
-  '@tanstack/react-query-devtools@5.62.2(@tanstack/react-query@5.62.2(react@19.0.0))(react@19.0.0)':
+  '@tanstack/react-query-devtools@5.62.3(@tanstack/react-query@5.62.3(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@tanstack/query-devtools': 5.61.4
-      '@tanstack/react-query': 5.62.2(react@19.0.0)
+      '@tanstack/react-query': 5.62.3(react@19.0.0)
       react: 19.0.0
 
-  '@tanstack/react-query@5.62.2(react@19.0.0)':
+  '@tanstack/react-query@5.62.3(react@19.0.0)':
     dependencies:
-      '@tanstack/query-core': 5.62.2
+      '@tanstack/query-core': 5.62.3
       react: 19.0.0
 
   '@tanstack/react-table@8.20.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
@@ -7831,6 +7820,8 @@ snapshots:
     dependencies:
       expect: 29.7.0
       pretty-format: 29.7.0
+
+  '@types/js-cookie@3.0.6': {}
 
   '@types/jsdom@20.0.1':
     dependencies:
@@ -8837,10 +8828,6 @@ snapshots:
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
 
-  eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.31.0):
-    dependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@9.16.0(jiti@1.21.6))
-
   eslint-import-resolver-node@0.3.9:
     dependencies:
       debug: 3.2.7
@@ -8941,10 +8928,6 @@ snapshots:
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
       globals: 13.24.0
-
-  eslint-plugin-react-hooks@5.0.0(eslint@9.16.0(jiti@1.21.6)):
-    dependencies:
-      eslint: 9.16.0(jiti@1.21.6)
 
   eslint-plugin-react-hooks@5.1.0(eslint@9.16.0(jiti@1.21.6)):
     dependencies:
@@ -9941,6 +9924,8 @@ snapshots:
       '@types/react': 19.0.0
       react: 19.0.0
 
+  js-cookie@3.0.5: {}
+
   js-tokens@4.0.0: {}
 
   js-yaml@3.14.1:
@@ -10507,7 +10492,7 @@ snapshots:
       react: 19.0.0
       scheduler: 0.25.0
 
-  react-hook-form@7.53.2(react@19.0.0):
+  react-hook-form@7.54.0(react@19.0.0):
     dependencies:
       react: 19.0.0
 
