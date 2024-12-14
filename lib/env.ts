@@ -1,4 +1,4 @@
-import { object, string, ZodError, type ZodSchema } from 'zod';
+import { type ZodSchema, object, string, ZodError } from 'zod';
 
 import { logger } from '@/lib/logger';
 
