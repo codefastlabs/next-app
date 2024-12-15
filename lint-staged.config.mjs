@@ -1,4 +1,8 @@
-import path from 'path';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Builds an ESLint command with the given filenames.
@@ -8,7 +12,7 @@ import path from 'path';
  * @returns {string} - The generated ESLint command.
  */
 function buildEslintCommand(filenames) {
-  return `next lint --fix --max-warnings 0 --file ${filenames.map((f) => path.relative(process.cwd(), f)).join(' --file ')}`;
+  return `next lint --fix --max-warnings 0 --file ${filenames.map((file) => path.relative(__dirname, file)).join(' --file ')}`;
 }
 
 const config = {
